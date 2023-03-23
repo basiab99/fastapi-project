@@ -1,14 +1,14 @@
 # fastapi-projekt
 
-Kod składający się z trzech endpointów 
+Code in FASTAPI consisting of three endpoints. 
 
-1. Endpoint sprawdzający, czy dana liczba jest pierwsza (zakres do 9223372036854775807)
+1. Endpoint checking if the number is prime (range 9223372036854775807) using GET.
 GET <host>/prime/<number>
-NIE zakładamy, że dane wejściowe są poprawne
+We do not assume the correctness of the data, checking if the data is in the correct range.
 
-2. Endpoint do zwrócenia inwersji kolorów obrazka.
-Inwersja odbywa się w insturkcji POST 
+2. Endpoint to return a picture with inversed colors using POST 
 POST <host>/picture/invert
-Zakładamy, że dane wejściowe są poprawne.
 
-3. Endpoint za uwierzytelnianiem zwracający aktualną godzinę, również w instrukcji POST.
+3. Endpoint returning the current time  after authentication, also in the POST.
+
+The whole app was deployed via the Heroku platform and a performance test report was made. Due to a policy change on the Heroku platform, access to deploy has expired, so a new solution is being sought to redeploy the application.
