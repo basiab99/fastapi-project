@@ -14,7 +14,6 @@ fake_users_db = {
         "hashed_password": "fakehashedpass321!",
         "disabled": False,
     },
-
 }
 
 app = FastAPI()
