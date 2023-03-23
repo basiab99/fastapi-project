@@ -1,4 +1,4 @@
-# fastapi-projekt
+# fastapi-project
 
 Code in FASTAPI consisting of three endpoints. 
 
